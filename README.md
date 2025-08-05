@@ -2,8 +2,9 @@
 This repository introduces Eigen Neural Network (ENN), a learning framework built to overcome the memory overhead, update-locking latency, and biological implausibility imposed by global back-propagation in modern vision and multimodal systems.
 
 By re-parameterizing every layer in a shared, orthonormal eigenbasis, ENN presents a new architectural paradigm that directly remedies the representational deficiencies of BP, leading to enhanced performance and enabling a more efficient, parallelizable training regime. This repo is built upon our paper
->[Eigen Neural Network: Unlocking Generalizable Vision with Eigenbasis]
+>[Eigen Neural Network: Unlocking Generalizable Vision with Eigenbasis](https://www.arxiv.org/pdf/2508.01219)
 >
+>Anzhe Cheng, Chenzhong Yin, Mingxi Cheng, Shukai Duan, Shahin Nazarian and Paul Bogdan
 
 
 ## Overview
